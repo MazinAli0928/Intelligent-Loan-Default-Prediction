@@ -1,0 +1,33 @@
+Model,Feature Set,Risk_Band,N,Population_%,Avg_PD,Actual_Default_Rate,N_Defaults,Default_Capture_%
+FT-Transformer,base,Low,0,0.0,,,0,0.0
+FT-Transformer,base,Moderate,38676,19.13,0.260467,0.077335,2991,7.01
+FT-Transformer,base,High,163142,80.7,0.368438,0.242163,39507,92.56
+FT-Transformer,base,Critical,335,0.17,0.506191,0.552239,185,0.43
+FT-Transformer,enhanced,Low,0,0.0,,,0,0.0
+FT-Transformer,enhanced,Moderate,42476,21.01,0.260373,0.080163,3405,7.98
+FT-Transformer,enhanced,High,158985,78.65,0.368865,0.244709,38905,91.15
+FT-Transformer,enhanced,Critical,692,0.34,0.510379,0.539017,373,0.87
+Logistic Regression,base,Low,4894,2.42,0.112204,0.048631,238,0.56
+Logistic Regression,base,Moderate,27212,13.46,0.237855,0.08386,2282,5.35
+Logistic Regression,base,High,88472,43.76,0.410604,0.169749,15018,35.18
+Logistic Regression,base,Critical,81575,40.35,0.598621,0.308244,25145,58.91
+Logistic Regression,enhanced,Low,5019,2.48,0.117425,0.043833,220,0.52
+Logistic Regression,enhanced,Moderate,29638,14.66,0.237824,0.085768,2542,5.96
+Logistic Regression,enhanced,High,92400,45.71,0.407964,0.172619,15950,37.37
+Logistic Regression,enhanced,Critical,75096,37.15,0.602986,0.319205,23971,56.16
+XGBoost,base,Low,7081,3.5,0.105247,0.041378,293,0.69
+XGBoost,base,Moderate,30424,15.05,0.238923,0.084144,2560,6.0
+XGBoost,base,High,89597,44.32,0.406284,0.172885,15490,36.29
+XGBoost,base,Critical,75051,37.13,0.602704,0.324313,24340,57.03
+XGBoost,enhanced,Low,7197,3.56,0.106217,0.041128,296,0.69
+XGBoost,enhanced,Moderate,30982,15.33,0.237929,0.083855,2598,6.09
+XGBoost,enhanced,High,89760,44.4,0.406583,0.17471,15682,36.74
+XGBoost,enhanced,Critical,74214,36.71,0.602146,0.324831,24107,56.48
+Hybrid MLP,base,Low,7,0.0,0.145783,0.142857,1,0.0
+Hybrid MLP,base,Moderate,40067,19.82,0.2631,0.07767,3112,7.29
+Hybrid MLP,base,High,162051,80.16,0.367043,0.244053,39549,92.66
+Hybrid MLP,base,Critical,28,0.01,0.501974,0.75,21,0.05
+Hybrid MLP,enhanced,Low,117,0.06,0.082606,0.153846,18,0.04
+Hybrid MLP,enhanced,Moderate,40136,19.85,0.262504,0.078957,3169,7.42
+Hybrid MLP,enhanced,High,161788,80.03,0.366737,0.243695,39427,92.37
+Hybrid MLP,enhanced,Critical,112,0.06,0.505227,0.616071,69,0.16

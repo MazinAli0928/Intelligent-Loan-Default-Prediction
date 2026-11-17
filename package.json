@@ -1,0 +1,12 @@
+{
+  "name": "ai-loan-default-risk-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:dev": "uvicorn app.main:app --app-dir backend --reload --port 8000",
+    "backend:test": "pytest backend/tests",
+    "test": "npm run backend:test"
+  }
+}

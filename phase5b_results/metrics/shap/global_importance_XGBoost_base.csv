@@ -1,0 +1,9 @@
+Feature,Mean_Abs_SHAP
+fico_n,0.34977412
+loan_amnt,0.32823697
+revenue,0.19250137
+dti_n,0.18579991
+purpose,0.124684915
+home_ownership_n,0.11934392
+emp_length,0.04300452
+experience_c,7.628517e-07

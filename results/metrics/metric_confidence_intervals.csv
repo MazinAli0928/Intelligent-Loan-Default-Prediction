@@ -1,0 +1,49 @@
+Model_Key,Metric,Point,CI_Lower,CI_Upper
+FT-Transformer_base,ROC-AUC,0.676751,0.674254,0.679536
+FT-Transformer_base,PR-AUC,0.344197,0.340574,0.34837
+FT-Transformer_base,Brier,0.176764,0.176238,0.177279
+FT-Transformer_base,F1,0.416252,0.413336,0.419196
+FT-Transformer_base,Recall,0.700865,0.696753,0.705207
+FT-Transformer_base,Precision,0.296036,0.293462,0.298636
+FT-Transformer_enhanced,ROC-AUC,0.67835,0.675958,0.681098
+FT-Transformer_enhanced,PR-AUC,0.346634,0.342899,0.350759
+FT-Transformer_enhanced,Brier,0.176041,0.175516,0.176557
+FT-Transformer_enhanced,F1,0.41702,0.413958,0.419869
+FT-Transformer_enhanced,Recall,0.687463,0.683098,0.691717
+FT-Transformer_enhanced,Precision,0.299284,0.296627,0.301831
+Logistic Regression_base,ROC-AUC,0.666261,0.663642,0.669064
+Logistic Regression_base,PR-AUC,0.327684,0.323714,0.331709
+Logistic Regression_base,Brier,0.220483,0.2199,0.221026
+Logistic Regression_base,F1,0.409242,0.406155,0.412215
+Logistic Regression_base,Recall,0.698194,0.694,0.70237
+Logistic Regression_base,Precision,0.289451,0.286842,0.292069
+Logistic Regression_enhanced,ROC-AUC,0.670966,0.668431,0.673602
+Logistic Regression_enhanced,PR-AUC,0.334461,0.330546,0.338539
+Logistic Regression_enhanced,Brier,0.215828,0.215255,0.216358
+Logistic Regression_enhanced,F1,0.411071,0.407994,0.414091
+Logistic Regression_enhanced,Recall,0.692805,0.688422,0.697077
+Logistic Regression_enhanced,Precision,0.292232,0.28964,0.294866
+XGBoost_base,ROC-AUC,0.679576,0.677147,0.682269
+XGBoost_base,PR-AUC,0.349143,0.345431,0.353264
+XGBoost_base,Brier,0.212273,0.211706,0.212834
+XGBoost_base,F1,0.418264,0.415107,0.42118
+XGBoost_base,Recall,0.697397,0.69309,0.70152
+XGBoost_base,Precision,0.298707,0.295975,0.301402
+XGBoost_enhanced,ROC-AUC,0.679002,0.676534,0.681697
+XGBoost_enhanced,PR-AUC,0.34857,0.344618,0.352721
+XGBoost_enhanced,Brier,0.211593,0.211013,0.21214
+XGBoost_enhanced,F1,0.417288,0.414265,0.420313
+XGBoost_enhanced,Recall,0.692618,0.688224,0.697089
+XGBoost_enhanced,Precision,0.298592,0.295915,0.301331
+Hybrid MLP_base,ROC-AUC,0.678029,0.67563,0.680755
+Hybrid MLP_base,PR-AUC,0.344241,0.340364,0.34835
+Hybrid MLP_base,Brier,0.176404,0.17587,0.176926
+Hybrid MLP_base,F1,0.417568,0.414557,0.420601
+Hybrid MLP_base,Recall,0.689736,0.685596,0.694105
+Hybrid MLP_base,Precision,0.299418,0.296682,0.302182
+Hybrid MLP_enhanced,ROC-AUC,0.678445,0.676109,0.681211
+Hybrid MLP_enhanced,PR-AUC,0.348245,0.344431,0.352359
+Hybrid MLP_enhanced,Brier,0.176227,0.175708,0.176757
+Hybrid MLP_enhanced,F1,0.417042,0.413947,0.419931
+Hybrid MLP_enhanced,Recall,0.685917,0.681779,0.690163
+Hybrid MLP_enhanced,Precision,0.299601,0.296934,0.302242

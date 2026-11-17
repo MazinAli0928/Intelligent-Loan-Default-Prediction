@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+loan_risk_demo.db
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.local
+coverage/
+data/

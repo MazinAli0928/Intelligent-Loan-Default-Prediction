@@ -1,0 +1,91 @@
+bin_lo,bin_hi,n,avg_pred,obs_freq,gap,Model,Method
+0.0,0.1,2739,0.070823,0.032129,0.038695,XGBoost_base,Raw
+0.1,0.2,10979,0.156994,0.054468,0.102527,XGBoost_base,Raw
+0.2,0.3,23787,0.2563,0.0911,0.1652,XGBoost_base,Raw
+0.3,0.4,40523,0.353188,0.138711,0.214477,XGBoost_base,Raw
+0.4,0.5,49074,0.450128,0.201104,0.249023,XGBoost_base,Raw
+0.5,0.6,41042,0.547163,0.271819,0.275344,XGBoost_base,Raw
+0.6,0.7,25114,0.644394,0.360556,0.283838,XGBoost_base,Raw
+0.7,0.8,8305,0.735654,0.457435,0.278218,XGBoost_base,Raw
+0.8,0.9,590,0.820313,0.559322,0.260991,XGBoost_base,Raw
+0.9,1.0,0,,,,XGBoost_base,Raw
+0.0,0.1,20918,0.07697,0.060904,0.016065,XGBoost_base,Platt
+0.1,0.2,69889,0.151733,0.134485,0.017248,XGBoost_base,Platt
+0.2,0.3,59066,0.246382,0.228778,0.017604,XGBoost_base,Platt
+0.3,0.4,33715,0.34465,0.315379,0.029271,XGBoost_base,Platt
+0.4,0.5,15383,0.441185,0.406943,0.034242,XGBoost_base,Platt
+0.5,0.6,3108,0.530776,0.5,0.030776,XGBoost_base,Platt
+0.6,0.7,74,0.613495,0.675676,0.062181,XGBoost_base,Platt
+0.7,0.8,0,,,,XGBoost_base,Platt
+0.8,0.9,0,,,,XGBoost_base,Platt
+0.9,1.0,0,,,,XGBoost_base,Platt
+0.0,0.1,28792,0.071458,0.067102,0.004356,XGBoost_base,Isotonic
+0.1,0.2,56200,0.157967,0.137562,0.020405,XGBoost_base,Isotonic
+0.2,0.3,71906,0.25193,0.229633,0.022297,XGBoost_base,Isotonic
+0.3,0.4,27660,0.348423,0.32538,0.023044,XGBoost_base,Isotonic
+0.4,0.5,13101,0.436037,0.404244,0.031793,XGBoost_base,Isotonic
+0.5,0.6,4483,0.52896,0.491412,0.037548,XGBoost_base,Isotonic
+0.6,0.7,0,,,,XGBoost_base,Isotonic
+0.7,0.8,0,,,,XGBoost_base,Isotonic
+0.8,0.9,0,,,,XGBoost_base,Isotonic
+0.9,1.0,11,1.0,0.818182,0.181818,XGBoost_base,Isotonic
+0.0,0.1,0,,,,FT-Transformer_enhanced,Raw
+0.1,0.2,2977,0.185895,0.030568,0.155328,FT-Transformer_enhanced,Raw
+0.2,0.3,38072,0.266555,0.083211,0.183345,FT-Transformer_enhanced,Raw
+0.3,0.4,124487,0.350105,0.205194,0.144911,FT-Transformer_enhanced,Raw
+0.4,0.5,36136,0.429399,0.376688,0.052711,FT-Transformer_enhanced,Raw
+0.5,0.6,481,0.508837,0.557173,0.048336,FT-Transformer_enhanced,Raw
+0.6,0.7,0,,,,FT-Transformer_enhanced,Raw
+0.7,0.8,0,,,,FT-Transformer_enhanced,Raw
+0.8,0.9,0,,,,FT-Transformer_enhanced,Raw
+0.9,1.0,0,,,,FT-Transformer_enhanced,Raw
+0.0,0.1,19169,0.071798,0.058532,0.013266,FT-Transformer_enhanced,Platt
+0.1,0.2,67514,0.153991,0.131647,0.022344,FT-Transformer_enhanced,Platt
+0.2,0.3,65857,0.245158,0.2281,0.017058,FT-Transformer_enhanced,Platt
+0.3,0.4,31627,0.343982,0.317735,0.026247,FT-Transformer_enhanced,Platt
+0.4,0.5,13826,0.441481,0.402358,0.039123,FT-Transformer_enhanced,Platt
+0.5,0.6,3574,0.538166,0.479295,0.058871,FT-Transformer_enhanced,Platt
+0.6,0.7,586,0.626296,0.556314,0.069982,FT-Transformer_enhanced,Platt
+0.7,0.8,0,,,,FT-Transformer_enhanced,Platt
+0.8,0.9,0,,,,FT-Transformer_enhanced,Platt
+0.9,1.0,0,,,,FT-Transformer_enhanced,Platt
+0.0,0.1,23225,0.067276,0.063208,0.004068,FT-Transformer_enhanced,Isotonic
+0.1,0.2,58704,0.150508,0.131541,0.018967,FT-Transformer_enhanced,Isotonic
+0.2,0.3,68513,0.245927,0.223257,0.02267,FT-Transformer_enhanced,Isotonic
+0.3,0.4,35036,0.343649,0.316988,0.026661,FT-Transformer_enhanced,Isotonic
+0.4,0.5,14356,0.451661,0.411953,0.039708,FT-Transformer_enhanced,Isotonic
+0.5,0.6,2283,0.556919,0.506789,0.05013,FT-Transformer_enhanced,Isotonic
+0.6,0.7,13,0.631164,0.461538,0.169625,FT-Transformer_enhanced,Isotonic
+0.7,0.8,8,0.75,0.75,0.0,FT-Transformer_enhanced,Isotonic
+0.8,0.9,3,0.832843,0.666667,0.166176,FT-Transformer_enhanced,Isotonic
+0.9,1.0,12,0.916667,0.5,0.416667,FT-Transformer_enhanced,Isotonic
+0.0,0.1,26,0.044369,0.115385,0.071016,Hybrid MLP_enhanced,Raw
+0.1,0.2,1050,0.186187,0.03619,0.149996,Hybrid MLP_enhanced,Raw
+0.2,0.3,34445,0.268235,0.075889,0.192346,Hybrid MLP_enhanced,Raw
+0.3,0.4,131200,0.350316,0.201822,0.148494,Hybrid MLP_enhanced,Raw
+0.4,0.5,35290,0.42726,0.381581,0.045679,Hybrid MLP_enhanced,Raw
+0.5,0.6,142,0.508178,0.584507,0.076329,Hybrid MLP_enhanced,Raw
+0.6,0.7,0,,,,Hybrid MLP_enhanced,Raw
+0.7,0.8,0,,,,Hybrid MLP_enhanced,Raw
+0.8,0.9,0,,,,Hybrid MLP_enhanced,Raw
+0.9,1.0,0,,,,Hybrid MLP_enhanced,Raw
+0.0,0.1,19138,0.073613,0.058104,0.015509,Hybrid MLP_enhanced,Platt
+0.1,0.2,68800,0.154337,0.132413,0.021924,Hybrid MLP_enhanced,Platt
+0.2,0.3,64057,0.245083,0.228484,0.016599,Hybrid MLP_enhanced,Platt
+0.3,0.4,31857,0.343873,0.316288,0.027585,Hybrid MLP_enhanced,Platt
+0.4,0.5,14074,0.441288,0.403865,0.037423,Hybrid MLP_enhanced,Platt
+0.5,0.6,3765,0.537474,0.480478,0.056996,Hybrid MLP_enhanced,Platt
+0.6,0.7,460,0.627607,0.552174,0.075433,Hybrid MLP_enhanced,Platt
+0.7,0.8,2,0.704678,1.0,0.295322,Hybrid MLP_enhanced,Platt
+0.8,0.9,0,,,,Hybrid MLP_enhanced,Platt
+0.9,1.0,0,,,,Hybrid MLP_enhanced,Platt
+0.0,0.1,21371,0.064201,0.060409,0.003792,Hybrid MLP_enhanced,Isotonic
+0.1,0.2,58504,0.146596,0.128265,0.018331,Hybrid MLP_enhanced,Isotonic
+0.2,0.3,72315,0.245945,0.222858,0.023087,Hybrid MLP_enhanced,Isotonic
+0.3,0.4,33208,0.347669,0.318748,0.028921,Hybrid MLP_enhanced,Isotonic
+0.4,0.5,14565,0.450466,0.416272,0.034194,Hybrid MLP_enhanced,Isotonic
+0.5,0.6,1953,0.552736,0.5064,0.046336,Hybrid MLP_enhanced,Isotonic
+0.6,0.7,224,0.616589,0.5625,0.054089,Hybrid MLP_enhanced,Isotonic
+0.7,0.8,0,,,,Hybrid MLP_enhanced,Isotonic
+0.8,0.9,0,,,,Hybrid MLP_enhanced,Isotonic
+0.9,1.0,13,0.999617,0.692308,0.307309,Hybrid MLP_enhanced,Isotonic

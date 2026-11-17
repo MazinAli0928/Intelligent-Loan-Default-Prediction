@@ -1,0 +1,4 @@
+Model,Perturbation,Top_5_Overlap,Spearman_Rank_Correlation
+XGBoost_base,FICO +1 StdDev,5,1.0
+FT-Transformer_enhanced,FICO +1 StdDev,4,0.9909
+Hybrid MLP_enhanced,FICO +1 StdDev,4,0.9636

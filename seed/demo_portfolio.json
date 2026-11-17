@@ -1,0 +1,37 @@
+{
+  "theme": "India NBFC / fintech demo portfolio",
+  "borrowers": [
+    {
+      "full_name": "Priya Sharma",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "segment": "salaried_prime",
+      "monthly_income": 145000,
+      "credit_score": 782
+    },
+    {
+      "full_name": "Arjun Nair",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "segment": "self_employed",
+      "monthly_income": 98000,
+      "credit_score": 642
+    },
+    {
+      "full_name": "Farah Khan",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "segment": "new_to_credit",
+      "monthly_income": 72000,
+      "credit_score": 611
+    },
+    {
+      "full_name": "Dev Patel",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "segment": "micro_business",
+      "monthly_income": 86000,
+      "credit_score": 586
+    }
+  ]
+}

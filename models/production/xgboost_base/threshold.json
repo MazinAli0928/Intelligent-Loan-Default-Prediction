@@ -1,0 +1,6 @@
+{
+  "threshold": 0.45,
+  "selection_dataset": "Validation Set",
+  "metric_optimized": "F1 / Balanced Accuracy Trade-off",
+  "decision_rule": "calibrated_pd >= threshold -> Default (1)"
+}

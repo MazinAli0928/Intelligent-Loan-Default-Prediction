@@ -1,0 +1,42 @@
+{
+  "test_case_description": "Golden Borrower Case from Test Set Row 0",
+  "input": {
+    "loan_amount": 3000.0,
+    "annual_income": 17400.0,
+    "dti": 22.9,
+    "fico_score": 712.0,
+    "credit_history_years": 1.0,
+    "employment_length": "NI",
+    "home_ownership": "OWN",
+    "loan_purpose": "vacation"
+  },
+  "transformed_vector_training": [
+    [
+      -1.3573079109191895,
+      -0.8676744103431702,
+      0.5584044456481934,
+      0.4848889112472534,
+      0.005147938150912523,
+      11.0,
+      2.0,
+      13.0
+    ]
+  ],
+  "transformed_vector_production": [
+    [
+      -1.3573079109191895,
+      -0.8676744103431702,
+      0.5584044456481934,
+      0.4848889112472534,
+      0.005147938150912523,
+      11.0,
+      2.0,
+      13.0
+    ]
+  ],
+  "preprocessing_vector_match": true,
+  "expected_raw_probability": 0.552262,
+  "expected_calibrated_probability": 0.298656,
+  "expected_predicted_class": 0,
+  "expected_risk_tier": "Moderate"
+}

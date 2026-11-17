@@ -1,0 +1,50 @@
+{
+  "model_name": "XGBoost",
+  "model_version": "1.0",
+  "feature_set": "base",
+  "feature_list": [
+    "loan_amnt",
+    "revenue",
+    "dti_n",
+    "fico_n",
+    "experience_c",
+    "emp_length",
+    "home_ownership_n",
+    "purpose"
+  ],
+  "preprocessing_version": "1.0",
+  "calibration_method": "IsotonicRegression",
+  "calibration_version": "1.0",
+  "threshold": 0.45,
+  "training_data_description": "Lending Club Historical Granting Dataset (Jun-2007 to Apr-2016)",
+  "training_period": "Jun-2007 to Apr-2016",
+  "validation_period": "Apr-2016 to Feb-2017",
+  "test_period": "Feb-2017 to Dec-2018",
+  "training_timestamp": "2026-09-10T16:04:28.352426",
+  "random_seed": 42,
+  "key_test_metrics": {
+    "ROC-AUC": 0.6794836763071046,
+    "PR-AUC": 0.3456531494022411,
+    "F1": 0.140355,
+    "Accuracy": 0.786825,
+    "Precision": 0.472405,
+    "Recall": 0.082422,
+    "Specificity": 0.975362,
+    "Balanced_Accuracy": 0.528892,
+    "MCC": 0.125196
+  },
+  "calibration_metrics": {
+    "Brier_Raw": 0.21227344089247266,
+    "Brier_Calibrated": 0.15580087625020572,
+    "ECE_Raw": 0.232332,
+    "ECE_Calibrated": 0.02028,
+    "Calibration_Slope": 0.991345,
+    "Calibration_Intercept": -0.135748
+  },
+  "traceability_references": [
+    "results/final_model_comparison.csv",
+    "results/comprehensive_model_metrics.csv",
+    "results/calibration_comparison.csv",
+    "results/trustworthiness_comparison.csv"
+  ]
+}

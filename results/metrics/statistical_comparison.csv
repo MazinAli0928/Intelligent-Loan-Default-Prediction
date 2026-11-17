@@ -1,0 +1,29 @@
+Model_A,Model_B,AUC_A,AUC_B,Z_stat,p_value,Significant_5%
+FT-Transformer_base,FT-Transformer_enhanced,0.676751,0.67835,-0.7973,0.425258,No
+FT-Transformer_base,Logistic Regression_base,0.676751,0.666261,5.1957,0.0,Yes
+FT-Transformer_base,Logistic Regression_enhanced,0.676751,0.670966,2.87,0.004105,Yes
+FT-Transformer_base,XGBoost_base,0.676751,0.679576,-1.4089,0.158862,No
+FT-Transformer_base,XGBoost_enhanced,0.676751,0.679002,-1.1228,0.261541,No
+FT-Transformer_base,Hybrid MLP_base,0.676751,0.678029,-0.638,0.523475,No
+FT-Transformer_base,Hybrid MLP_enhanced,0.676751,0.678445,-0.8443,0.398497,No
+FT-Transformer_enhanced,Logistic Regression_base,0.67835,0.666261,5.9916,0.0,Yes
+FT-Transformer_enhanced,Logistic Regression_enhanced,0.67835,0.670966,3.6655,0.000247,Yes
+FT-Transformer_enhanced,XGBoost_base,0.67835,0.679576,-0.612,0.540569,No
+FT-Transformer_enhanced,XGBoost_enhanced,0.67835,0.679002,-0.3257,0.744624,No
+FT-Transformer_enhanced,Hybrid MLP_base,0.67835,0.678029,0.1598,0.873003,No
+FT-Transformer_enhanced,Hybrid MLP_enhanced,0.67835,0.678445,-0.0475,0.962139,No
+Logistic Regression_base,Logistic Regression_enhanced,0.666261,0.670966,-2.3196,0.020361,Yes
+Logistic Regression_base,XGBoost_base,0.666261,0.679576,-6.5997,0.0,Yes
+Logistic Regression_base,XGBoost_enhanced,0.666261,0.679002,-6.3144,0.0,Yes
+Logistic Regression_base,Hybrid MLP_base,0.666261,0.678029,-5.8358,0.0,Yes
+Logistic Regression_base,Hybrid MLP_enhanced,0.666261,0.678445,-6.0353,0.0,Yes
+Logistic Regression_enhanced,XGBoost_base,0.670966,0.679576,-4.2744,1.9e-05,Yes
+Logistic Regression_enhanced,XGBoost_enhanced,0.670966,0.679002,-3.9891,6.6e-05,Yes
+Logistic Regression_enhanced,Hybrid MLP_base,0.670966,0.678029,-3.5084,0.000451,Yes
+Logistic Regression_enhanced,Hybrid MLP_enhanced,0.670966,0.678445,-3.7107,0.000207,Yes
+XGBoost_base,XGBoost_enhanced,0.679576,0.679002,0.2861,0.774778,No
+XGBoost_base,Hybrid MLP_base,0.679576,0.678029,0.7721,0.440047,No
+XGBoost_base,Hybrid MLP_enhanced,0.679576,0.678445,0.5641,0.572668,No
+XGBoost_enhanced,Hybrid MLP_base,0.679002,0.678029,0.4857,0.62716,No
+XGBoost_enhanced,Hybrid MLP_enhanced,0.679002,0.678445,0.2781,0.780948,No
+Hybrid MLP_base,Hybrid MLP_enhanced,0.678029,0.678445,-0.2072,0.835818,No

@@ -1,0 +1,9 @@
+Model,Feature Set,PSI
+FT-Transformer,base,0.029101
+FT-Transformer,enhanced,0.028946
+Logistic Regression,base,0.054717
+Logistic Regression,enhanced,0.059901
+XGBoost,base,0.034937
+XGBoost,enhanced,0.038357
+Hybrid MLP,base,0.029147
+Hybrid MLP,enhanced,0.031858

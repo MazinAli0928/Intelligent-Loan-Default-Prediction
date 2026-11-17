@@ -1,0 +1,9 @@
+Model,Feature Set,TP,TN,FP,FN
+FT-Transformer,base,29915,88333,71137,12768
+FT-Transformer,enhanced,29343,90769,68701,13340
+Logistic Regression,base,29801,86314,73156,12882
+Logistic Regression,enhanced,29571,87851,71619,13112
+XGBoost,base,29767,89584,69886,12916
+XGBoost,enhanced,29563,90025,69445,13120
+Hybrid MLP,base,29440,90586,68884,13243
+Hybrid MLP,enhanced,29277,91027,68443,13406

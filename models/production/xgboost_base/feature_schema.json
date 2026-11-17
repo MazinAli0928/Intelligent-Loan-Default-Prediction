@@ -1,0 +1,44 @@
+{
+  "user_to_model_mapping": {
+    "loan_amount": "loan_amnt",
+    "annual_income": "revenue",
+    "dti": "dti_n",
+    "fico_score": "fico_n",
+    "credit_history_years": "experience_c",
+    "employment_length": "emp_length",
+    "home_ownership": "home_ownership_n",
+    "loan_purpose": "purpose"
+  },
+  "user_features": [
+    "loan_amount",
+    "annual_income",
+    "dti",
+    "fico_score",
+    "credit_history_years",
+    "employment_length",
+    "home_ownership",
+    "loan_purpose"
+  ],
+  "model_features": [
+    "loan_amnt",
+    "revenue",
+    "dti_n",
+    "fico_n",
+    "experience_c",
+    "emp_length",
+    "home_ownership_n",
+    "purpose"
+  ],
+  "numerical_user_features": [
+    "loan_amount",
+    "annual_income",
+    "dti",
+    "fico_score",
+    "credit_history_years"
+  ],
+  "categorical_user_features": [
+    "employment_length",
+    "home_ownership",
+    "loan_purpose"
+  ]
+}

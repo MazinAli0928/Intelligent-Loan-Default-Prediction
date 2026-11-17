@@ -1,0 +1,4 @@
+Model,Perturbation,Expected_Direction,Observed_Mean_PD_Change,Plausible
+XGBoost_base,FICO +1 StdDev,Decrease PD,-0.08653,Yes
+FT-Transformer_enhanced,FICO +1 StdDev,Decrease PD,-0.033156,Yes
+Hybrid MLP_enhanced,FICO +1 StdDev,Decrease PD,-0.031226,Yes
